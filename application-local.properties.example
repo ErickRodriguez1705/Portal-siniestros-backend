@@ -1,0 +1,9 @@
+# Copia este archivo como application-local.properties y ajusta la conexion a PostgreSQL.
+# El archivo application-local.properties queda fuera de Git.
+spring.datasource.username=postgres
+spring.datasource.password=CAMBIAR_CONTRASENA_POSTGRES
+
+# Cuenta de evaluacion local. No uses esta clave en una instalacion publica.
+app.admin.initial.email=administrador@portal-siniestros.local
+app.admin.initial.password=PortalSiniestros2026!
+app.admin.initial.name=Administrador
